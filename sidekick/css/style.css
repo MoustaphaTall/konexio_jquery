@@ -1,0 +1,139 @@
+/*
+** FONTS    
+/*
+    Maven Pro et Teko
+*/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Teko:wght@400;500&display=swap');
+
+h1, h2, h3, h4 {
+    font-family: Teko, sans-serif;    
+}
+
+a, li, h5 {
+    font-family: 'Maven Pro', serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2.8em;    
+}
+
+h4 {
+    font-size: 2.3em;    
+}
+
+h5 {
+    font-size: 3.8em;
+    font-weight: 400;
+}
+
+/*
+** GENERAL
+*/
+.banner, .tuto, .pricing, footer {
+    height: 100vh;
+}
+
+h3 {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+h4, h5 {
+    text-align: center;
+}
+
+.tuto-title, .pricing-title {
+    justify-content: center;  
+}
+
+/*
+** HEADER
+*/
+.navbar * {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.navbar-brand {
+    font-size: 2em;
+}
+
+.banner{
+    position: relative;        
+    background-image: url(../img/header2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;    
+}
+
+.banner-content h2 {
+    margin-bottom: 200px;
+}
+
+.banner-content * {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;    
+}
+
+/*
+** MAIN
+*/
+
+/*
+*** Tuto
+*/
+.tuto {      
+    background-color: #097709;
+    color: white;   
+}
+
+.tuto-title h3 {
+    font-weight: 400;
+}
+
+i {
+    margin-right: 10px;
+}
+.bullet-points li {
+    font-size: 1.7em;
+}
+
+/*
+*** Pricing
+*/
+.pricing-details {
+    margin-bottom: 30px;
+}
+
+.pricing-details li {
+    font-size: 1.6em;
+    text-align: center;
+    list-style-type: none;    
+}
+
+/*
+** FOOTER
+*/
+footer {
+    background-color: #097709;
+    color: white;
+}
+
+footer h3 {
+    padding-top: 180px;    
+
+}
