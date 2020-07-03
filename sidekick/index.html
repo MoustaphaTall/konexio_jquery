@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" /> <!-- font Awesome CSS-->
+    <link rel="stylesheet" href="./css/animate.css" /> <!-- animate.css library-->
 </head>
 
 <body>
@@ -44,14 +45,22 @@
                     <div class="col-7 presentation-vid"></div>
                     <div class="col-2 bullet-points">
                         <ul>
-                            <li><i class="fab fa-envira"></i>Une solution <br /> simple</li>
-                            <li><i class="fas fa-car"></i>Une solution <br /> rapide</li>
+                            <li class="wow slideInLeft" data-wow-offset="30"><i class="fab fa-envira"></i>Une solution
+                                <br /> simple</li>
+                            <li class="wow slideInLeft" data-wow-delay="0.2s" data-wow-offset="30"><i
+                                    class="fas fa-car"></i>Une solution
+                                <br /> rapide</li>
                         </ul>
                     </div>
                     <div class="col-2 bullet-points">
                         <ul>
-                            <li><i class="fab fa-bitcoin"></i>Une solution <br /> économique</li>
-                            <li><i class="fas fa-globe-europe"></i>Une solution <br /> écologique</li>
+                            <li class="wow slideInRight" data-wow-offset="30"><i class="fab fa-bitcoin"></i>Une solution
+                                <br /> économique
+                            </li>
+                            <li class="wow slideInRight" data-wow-delay="0.2s" data-wow-offset="30"><i
+                                    class="fas fa-globe-europe"></i>Une
+                                solution <br />
+                                écologique</li>
                         </ul>
                     </div>
                 </div>
@@ -95,13 +104,13 @@
 
                 <div class="row prices">
                     <div class="col-4">
-                        <h5>0<sup>€</sup></h5>
+                        <h5><span class="counter">0</span><sup>€</sup></h5>
                     </div>
                     <div class="col-4">
-                        <h5>1.07<sup>€</sup></h5>
+                        <h5><span class="counter">9.99</span><sup>€</sup></h5>
                     </div>
                     <div class="col-4">
-                        <h5>4.27<sup>€</sup></h5>
+                        <h5><span class="counter">39.99</span><sup>€</sup></h5>
                     </div>
                 </div>
             </div>
@@ -124,7 +133,13 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <!-- installs waypoints.js to trigger a function when scrolling to an element-->
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script> <!-- counterUp plugin-->
+    <!-- wow.js, to use animate.css animations when scrolling down to element-->
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

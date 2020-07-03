@@ -55,6 +55,9 @@ h4, h5 {
     justify-content: center;  
 }
 
+.wow {
+    visibility: hidden;
+}
 /*
 ** HEADER
 */
@@ -86,7 +89,7 @@ h4, h5 {
 
 .banner-content * {
     background-color: rgba(255, 255, 255, 0.8);
-    width: 80%;    
+    width: 35vw;    
 }
 
 /*
