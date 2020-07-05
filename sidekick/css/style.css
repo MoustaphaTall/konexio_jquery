@@ -9,9 +9,8 @@ h1, h2, h3, h4 {
     font-family: Teko, sans-serif;    
 }
 
-a, li, h5 {
+a, li, h5, figcaption {
     font-family: 'Maven Pro', serif;
-    font-weight: 600;
 }
 
 h1 {
@@ -43,7 +42,7 @@ h5 {
 }
 
 h3 {
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 60px;
 }
 
@@ -55,9 +54,15 @@ h4, h5 {
     justify-content: center;  
 }
 
+span[class*="carousel-control"] {
+    height: 40px;
+    width: 40px;
+}
+
 .wow {
     visibility: hidden;
 }
+
 /*
 ** HEADER
 */
@@ -71,16 +76,17 @@ h4, h5 {
 
 .banner{
     position: relative;        
-    background-image: url(../img/header2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
 .banner-content {
     position: absolute;
-    bottom: 20%;
-    left: 10%;    
+    bottom: 23%;
+    left: 8%;    
+}
+
+#mainCarousel img {
+    height: 100vh;
+    width: 100vw;
 }
 
 .banner-content h2 {
@@ -106,6 +112,10 @@ h4, h5 {
 
 .tuto-title h3 {
     font-weight: 400;
+}
+
+.presentation-vid img {
+    height: 500px;        
 }
 
 i {
@@ -137,6 +147,18 @@ footer {
 }
 
 footer h3 {
-    padding-top: 180px;    
+    padding-top: 180px;
+    text-align: center;
+}
 
+.comments-prev-icon {    
+    margin-left: -200px;    
+}
+
+.comments-next-icon {
+    margin-right: -200px;
+}
+
+.carousel-item figcaption {
+    font-size: 1.5em;        
 }
